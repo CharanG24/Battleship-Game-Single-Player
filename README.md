@@ -1,0 +1,1 @@
+Welcome to the single-player Battleship game! In this classic game, you play against the computer on a 10x10 grid. Each player has a fleet consisting of an Aircraft Carrier (5 cells), Battleship (4 cells), Submarine (3 cells), Destroyer (3 cells), and Patrol Boat (2 cells).
