@@ -1,0 +1,237 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: black; 
+  background-color: lavender; 
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(1, 1, 1, 1); 
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+span {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+span {
+  transition: color 0.3s;
+}
+
+span:hover {
+  transform: scale(1.1);
+}
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+button#start {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+button#start {
+  margin-right: 10px; 
+}
+
+button#restart {
+  background-color: purple; 
+  color: white;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.battleship-grid {
+  margin: 2vmin;
+  display: grid;
+  background-color: darkturquoise; 
+  grid-template-rows: repeat(10, 6vmin);
+  grid-template-columns: repeat(10, 6vmin);
+}
+
+.battleship-grid div {
+  border: 1px solid white; 
+}
+
+.grid-display {
+  width: 800px;
+  height: 200px;
+  margin: 20px auto; 
+  background-color: lightblue; 
+  border: 2px solid black; 
+  border-radius: 10px; 
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); 
+  grid-template-rows: repeat(10, 1fr); 
+  gap: 2px;
+  box-shadow: 0 0 10px rgba(1, 1, 1, 0.5);
+  transition: box-shadow 0.3s;
+}
+
+.grid-display:hover {
+  box-shadow: 0 0 20px rgba(1, 1, 1, 0.8);
+}
+
+.grid-item {
+  background-color: #fff;
+}
+
+.grid-item:hover {
+  background-color: #cce6ff;
+}
+
+.destroyer-container {
+  width: 80px;
+  height: 40px;
+  background-color: coral; 
+  margin: 10px;
+  display: flex;
+}
+
+.submarine-container {
+  width: 120px;
+  height: 40px;
+  background-color: lightpink;   
+  margin: 10px;
+  display: flex;
+}
+
+.cruiser-container {
+  width: 120px;
+  height: 40px;
+  background-color: orchid;     
+  margin: 10px;
+  display: flex;
+}
+
+.battleship-container {
+  width: 160px;
+  height: 40px;
+  background-color: darkblue;      
+  margin: 10px;
+  display: flex;
+}
+
+.carrier-container {
+  width: 200px;
+  height: 40px;
+  background-color: seagreen;
+  margin: 10px;
+  display: flex;
+}
+
+.ship div {
+  width: 40px;
+  height: 40px;
+}
+
+.destroyer {
+  background-color: coral;
+}
+
+.submarine {
+  background-color: lightpink; 
+}
+
+.cruiser{
+  background-color: orchid; 
+}  
+
+
+.battleship {
+  background-color: darkblue; 
+}
+
+.carrier {
+  background-color: seagreen; 
+}
+
+.boom {
+  background-color: red; 
+}
+
+.miss {
+  background-color: black; 
+}
+
+.button-container {
+  text-align: center; 
+}
+
+.hidden {
+  background-color: darkturquoise; 
+}
+
+#turn {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  color:black;
+  background-color: white ; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+#turn:hover {
+  transform: translateY(-2px);
+}
+
+#turn:active {
+  transform: translateY(1px);
+}
+
+.hit-miss-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#playerHits, #computerHits {
+  color: green; 
+}
+
+#playerMisses, #computerMisses {
+  color: red; 
+}
