@@ -2,6 +2,9 @@
 
 This is a single-player version of the classic Battleship game, where you play against the computer on a 10x10 grid. The goal is to sink all of the opponent's ships before they sink yours!
 
+<img width="1150" alt="image" src="https://github.com/user-attachments/assets/8286f145-762f-4993-ad7f-78b66336a5d0" />
+
+
 ## Features
 - A fleet consisting of:
   - Aircraft Carrier (5 cells)
